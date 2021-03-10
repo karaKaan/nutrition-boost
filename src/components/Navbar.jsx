@@ -12,7 +12,6 @@ export default function Navbar(props) {
                 ):("")}
 
                 <ul className={styles.navbar}>
-                    <li>test</li>
                     <li>{props.navList1}</li>
                     <li>{props.navList2}</li>
                     <li>{props.navList3}</li>
