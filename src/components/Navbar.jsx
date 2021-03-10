@@ -17,7 +17,7 @@ export default function Navbar(props) {
                     <li>{props.navList3}</li>
                     <li>{props.navList4}</li>
                     {props.isLogin === true ? (
-                        <li>{props.navListLogin}</li>
+                        <li className={styles.register}>{props.navListLogin}</li>
                     ):("")}
                 </ul>
             </nav>

@@ -16,7 +16,7 @@ function App() {
             navList3="NavList3" 
             navList4="NavList4"
             isLogin={true}
-            navListLogin="Register"
+            navListLogin="Get Started"
             />
         <Router />
       </Router>
