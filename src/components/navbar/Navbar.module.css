@@ -4,6 +4,11 @@
   margin-left: 2em;
 }
 
+.navbar,
+.logo {
+  z-index: 2;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -13,6 +18,7 @@
 .navbar li {
   list-style: none;
   font-size: 1.2rem;
+  color: #1f8a52;
   padding: 0.75em 2em;
 }
 
