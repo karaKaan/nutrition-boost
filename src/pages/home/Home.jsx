@@ -1,5 +1,6 @@
 import React from 'react'
 import BigCards from '../../components/bigCards/BigCards'
+import SuccessBtn from '../../components/buttons/SuccessBtn'
 
 import zenVideo from '../../video/zen.mp4'
 import cookingVid from '../../video/cooking.mp4'
@@ -41,6 +42,11 @@ export default function Home() {
                         </p>
                 </div>
                 <video id={styles.pillsVid} src={pills} autoPlay loop muted/>
+            </div>
+
+            <div className={styles.endContent}>
+                <h1> READY TO CHANGE YOUR LIFE</h1>
+                <SuccessBtn btnName="Get Started" />
             </div>
 
         </div>

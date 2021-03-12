@@ -7,3 +7,8 @@ body{
   font-family: 'Roboto', Times, serif;
   overflow-x: hidden;
 }
+
+
+li{
+  list-style: none;
+}

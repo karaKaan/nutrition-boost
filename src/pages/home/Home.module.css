@@ -34,9 +34,19 @@
 }
 
 #pillsVidContent h1 {
-    max-width: 14em;
+  max-width: 14em;
 }
 
 #pillsVid {
   margin-inline: auto;
+}
+
+.endContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.endContent h1 {
+    font-size: 2.5rem;
 }

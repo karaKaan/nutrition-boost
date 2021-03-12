@@ -1,0 +1,17 @@
+.successBtnWrapper{
+    background-color: #2fcf7d;
+    font-size: 1.3rem;
+
+    padding: .8em;
+    max-width: 7em;
+    border-radius: 8%;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    
+}
+
+.successBtnWrapper:hover{
+    cursor: pointer;
+}
