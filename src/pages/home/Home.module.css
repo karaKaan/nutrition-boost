@@ -1,1 +1,26 @@
+.homeContent video{
+    max-width: 50em;
 
+}
+
+.homeContent{
+    display: flex;
+    margin-top: 3em;
+    
+}
+
+.vidContent{
+    max-width: 40em;
+    margin-inline: auto;
+}
+
+.vidContent h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.vidContent p {
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    align-content: center;
+}

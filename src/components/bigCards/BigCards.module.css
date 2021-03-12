@@ -38,3 +38,13 @@
 .videoContent {
   z-index: 2;
 }
+
+.videoContent p {
+  font-size: 1.2rem;
+  line-height: 1.6em;
+}
+
+.videoContent h1 {
+  font-size: 4rem;
+  line-height: 1em;
+}

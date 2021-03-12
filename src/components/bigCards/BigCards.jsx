@@ -11,8 +11,16 @@ export default function BigCards(props) {
             <div className={styles.bigCardsOverlay}></div>
 
             <div className={styles.videoContent}>
-                <h1>Hello Worlllllllllllllllllld</h1>
+                <h1>FIND YOUR <br/>INNER PEACE</h1>
                 <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Sequi laborum est veritatis natus voluptatibus inventore maxime rem cum animi nobis.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Sequi laborum est veritatis natus voluptatibus inventore maxime rem cum animi nobis.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Sequi laborum est veritatis natus voluptatibus inventore maxime rem cum animi nobis.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Sequi laborum est veritatis natus voluptatibus inventore maxime rem cum animi nobis.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                     Sequi laborum est veritatis natus voluptatibus inventore maxime rem cum animi nobis.
                 </p>
