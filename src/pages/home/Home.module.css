@@ -1,26 +1,42 @@
-.homeContent video{
-    max-width: 50em;
+.homeContent video {
+  max-width: 60em;
+  max-height: 40em;
 
+  margin: 2em;
 }
 
-.homeContent{
-    display: flex;
-    margin-top: 3em;
-    
+.homeContent {
+  display: flex;
+  margin: 4em;
+
+  justify-content: left;
 }
 
-.vidContent{
-    max-width: 40em;
-    margin-inline: auto;
+.vidContent {
+  max-width: 40em;
+  /* margin-inline: auto; */
 }
 
-.vidContent h1{
-    text-align: center;
-    font-size: 2.5rem;
+.vidContent h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  max-width: 15em;
 }
 
 .vidContent p {
-    font-size: 1.3rem;
-    line-height: 1.6em;
-    align-content: center;
+  font-size: 1.3rem;
+  line-height: 1.6em;
+}
+
+#pillsVidContent {
+  margin-right: auto;
+  margin-left: 2em;
+}
+
+#pillsVidContent h1 {
+    max-width: 14em;
+}
+
+#pillsVid {
+  margin-inline: auto;
 }

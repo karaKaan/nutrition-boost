@@ -3,6 +3,7 @@ import BigCards from '../../components/bigCards/BigCards'
 
 import zenVideo from '../../video/zen.mp4'
 import cookingVid from '../../video/cooking.mp4'
+import pills from '../../video/pills.mp4'
 import styles from './Home.module.css'
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
             <div className={styles.homeContent}>
                 <video src={cookingVid} autoPlay loop muted/>
                 <div className={styles.vidContent}>
-                    <h1>Nutrition</h1>
+                    <h1>GET YOUR NUTRITION THE RIGHT WAY</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                         Maxime incidunt aliquid asperiores natus praesentium totam odit nihil at optio, non fugiat quis fugit animi, 
                         veritatis doloribus laborum vitae explicabo illum.
@@ -25,6 +26,23 @@ export default function Home() {
                         </p>
                 </div>
             </div>
+            <div className={styles.homeContent}>
+                <div id={styles.pillsVidContent} className={styles.vidContent}>
+                    <h1>NO NEED FOR VITAMINE PILLS</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Maxime incidunt aliquid asperiores natus praesentium totam odit nihil at optio, non fugiat quis fugit animi, 
+                        veritatis doloribus laborum vitae explicabo illum.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Maxime incidunt aliquid asperiores natus praesentium totam odit nihil at optio, non fugiat quis fugit animi, 
+                        veritatis doloribus laborum vitae explicabo illum.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Maxime incidunt aliquid asperiores natus praesentium totam odit nihil at optio, non fugiat quis fugit animi, 
+                        veritatis doloribus laborum vitae explicabo illum.
+                        </p>
+                </div>
+                <video id={styles.pillsVid} src={pills} autoPlay loop muted/>
+            </div>
+
         </div>
     )
 }
