@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+:root{
+  --primary-bg-100: #5CAB7D;
+  --primary-bg-400: #5A9367; 
+  --primary-bg-700: #44633F;
+  --neutral-white: #fff;
+
+
+}
+
 body{
   margin: 0;
   font-family: 'Roboto', Times, serif;

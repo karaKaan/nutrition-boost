@@ -2,7 +2,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  color: #fff;
+  color: var(--neutral-white);
 
   max-width: 960px;
   padding-left: 1em;
@@ -30,7 +30,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: #1f8a52;
+  background: var(--primary-bg-100);
   z-index: 1;
   opacity: 0.80;
 }

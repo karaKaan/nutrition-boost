@@ -18,24 +18,25 @@
 .navbar li {
   list-style: none;
   font-size: 1.2rem;
-  color: #1f8a52;
+  color: var(--primary-bg-700);
   padding: 0.75em 2em;
 }
 
 .navbar li:hover {
   cursor: pointer;
-  color: #1f8a52;
+  color: var(--primary-bg-400);
   font-weight: 700;
 }
 
-.register {
-  background: #2fcf7d;
+.navbar .register {
+  background: var(--primary-bg-700);
+  color: var(--neutral-white);
   border-radius: 2em;
   font-weight: 700;
 }
 
-.register:hover {
-  background: black;
-
-  transition: ease-in-out 250ms;
+.navbar .register:hover {
+  background: var(--primary-bg-100);
+  color: var(--neutral-white);
+  transition: ease-in-out 200ms;
 }
