@@ -1,11 +1,12 @@
 .successBtnWrapper{
     background-color: #2fcf7d;
     font-size: 1.3rem;
-
+    color: var(--primary-bg-900);
+    
     padding: .8em;
     max-width: 7em;
     border-radius: 8%;
-
+    
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
