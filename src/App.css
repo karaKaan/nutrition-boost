@@ -59,11 +59,17 @@ label{
   margin-left: 2em;
 }
 
+label span{
+  opacity: .7;
+}
+
 input{
   /* border-bottom: 0.2rem solid red; */
   border: none;
   border-bottom: 1px solid var(--primary-bg-100);
   margin-right: 2em;
+
+  font-size: 1.1rem;
 }
 
 input:focus{

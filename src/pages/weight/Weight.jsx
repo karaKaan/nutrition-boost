@@ -1,4 +1,5 @@
 import React from 'react'
+import SuccessBtn from '../../components/buttons/SuccessBtn'
 
 import styles from "./Weight.module.css"
 
@@ -21,20 +22,22 @@ export default function Weight() {
                         <p>Age</p>
                         <label>
                         <input type="number" aria-label="123"/>
-                            
+
                         </label>
                         <p>Height in cm</p>
                         <label>
                         <input type="number"/>
-                        cm
+                        <span>cm</span>
                         </label>
                         <p>Weight in kg</p>
                         <label>
                         <input type="number"/>
-                        kg
+                        <span>kg</span>
                         </label>
                     </div>
-
+                </div>
+                <div className={styles.calcBtn}>
+                    <SuccessBtn  btnName="Calculate" />
                 </div>
         </div>
     )
