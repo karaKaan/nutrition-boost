@@ -16,6 +16,9 @@ body{
   margin: 0;
   font-family: 'Roboto', Times, serif;
   overflow-x: hidden;
+  min-height: 100vh;
+
+  position: relative;
 }
 
 li{
@@ -48,4 +51,18 @@ hr{
 a{
   text-decoration: none;
   color: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
+
+.container{
+  margin: 5em;
 }
