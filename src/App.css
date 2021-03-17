@@ -53,6 +53,24 @@ a{
   color: inherit;
 }
 
+label{
+  font-size: 1.3rem;
+  color: var(--primary-bg-900);
+  margin-left: 2em;
+}
+
+input{
+  /* border-bottom: 0.2rem solid red; */
+  border: none;
+  border-bottom: 1px solid var(--primary-bg-100);
+  margin-right: 2em;
+}
+
+input:focus{
+  outline: none;
+  border-bottom: 2px solid var(--primary-bg-400);
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button{
   -webkit-appearance: none;

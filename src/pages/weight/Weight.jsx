@@ -19,11 +19,20 @@ export default function Weight() {
                 <div className={styles.calculationForm}>
                     <div className={styles.calculationName}>
                         <p>Age</p>
-                        <input type="number"/>
+                        <label>
+                        <input type="number" aria-label="123"/>
+                            
+                        </label>
                         <p>Height in cm</p>
+                        <label>
                         <input type="number"/>
+                        cm
+                        </label>
                         <p>Weight in kg</p>
+                        <label>
                         <input type="number"/>
+                        kg
+                        </label>
                     </div>
 
                 </div>
