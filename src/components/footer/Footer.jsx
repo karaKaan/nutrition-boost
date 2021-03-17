@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 import styles from './Footer.module.css'
 
@@ -8,10 +10,18 @@ export default function Footer(props) {
 
             <div className={styles.footerLinks}>
                 <ul>
-                    <li>{props.footerLink1}</li>
-                    <li>{props.footerLink2}</li>
-                    <li>{props.footerLink3}</li>
-                    <li>{props.footerLink4}</li>
+                    <Link to={props.footerLink1}>
+                        <li>{props.footerText1}</li>
+                    </Link>
+                    <Link to={props.footerLink2}>
+                        <li>{props.footerText2}</li>
+                    </Link>
+                    <Link to={props.footerLink3}>
+                        <li>{props.footerText3}</li>
+                    </Link>
+                    <Link to={props.footerLink4}>
+                        <li>{props.footerText4}</li>
+                    </Link>
                 </ul>
             </div>
             <hr/>

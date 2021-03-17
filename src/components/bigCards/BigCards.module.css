@@ -42,6 +42,7 @@
 .videoContent p {
   font-size: 1.2rem;
   line-height: 1.6em;
+  color: var(--neutral-white);
 }
 
 .videoContent h1 {

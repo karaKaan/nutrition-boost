@@ -22,10 +22,6 @@
 
 }
 
-.vidContent p {
-
-}
-
 #pillsVidContent {
   margin-right: auto;
   margin-left: 2em;
@@ -43,5 +39,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media(max-width: 1461px){
+  .homeContent video{
+    max-width: 40em;
+  }
+}
+
+@media(max-width: 1180px){
+  .homeContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #pillsVidContent{
+    margin-inline: auto;
+  }
+}
+
+@media(max-width: 470px){
+  #pillsVid{
+    max-width: 10em;
+  }
 }
 

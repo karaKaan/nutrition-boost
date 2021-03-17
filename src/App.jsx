@@ -13,20 +13,32 @@ function App() {
         <Navbar 
             isLogo={true}
             logoUrl={logo}
-            navList1="NavList1" 
-            navList2="NavList2" 
-            navList3="NavList3" 
-            navList4="NavList4"
+            navList1="Gewicht berechnen"
+            link1="/gewicht" 
+            navList2="Blog" 
+            link2="/blog" 
+            navList3="Shop" 
+            link3="/shop" 
+            navList4="something"
+            link4="/something" 
             isLogin={true}
             navListLogin="Get Started"
+            linkRegister="/register"
             />
             <Route exact path="/" component={Home}/>
 
         <Footer
-            footerLink1="Privacy"
-            footerLink2="Terms of Use"
-            footerLink3="Legal"
-            footerLink4="Cookies"
+            footerText1="Privacy"
+            footerLink1="/privacy"
+
+            footerText2="Terms of Use"
+            footerLink2="/terms"
+
+            footerText3="Legal"
+            footerLink3="/legal"
+
+            footerText4="Cookies"
+            footerLink4="/cookies"
             />
         <Router />
       </Router>
