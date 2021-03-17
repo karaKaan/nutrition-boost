@@ -8,7 +8,7 @@ export default function Navbar(props) {
             <div className={styles.navbarWrapper}>
                 <nav className={styles.nav}>
                     {props.isLogo === true ? (
-                        <img className={styles.logo} src={props.logoUrl} alt="Companies logo" width="100px" height="100px"/>
+                    <img className={styles.logo} src={props.logoUrl} alt="Companies logo" width="100px" height="100px"/>
                     ):("")}
 
                     <ul className={styles.navbar}>

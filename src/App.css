@@ -6,7 +6,8 @@
   --primary-bg-100: #5CAB7D;
   --primary-bg-400: #5A9367; 
   --primary-bg-700: #44633F;
-  --neutral-white: #fff;
+  --primary-bg-900: #22311f;
+  --neutral-white: #fefefe;
 
 
 }
@@ -17,7 +18,29 @@ body{
   overflow-x: hidden;
 }
 
-
 li{
   list-style: none;
+}
+
+h1,
+h2,
+h3{
+  color: var(--primary-bg-700);
+  line-height: 1em;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+p{
+  font-size: 1.3rem;
+  line-height: 1.6em;
+
+  color: var(--primary-bg-900);
+}
+
+hr{
+  max-width: 100em;
+  color: var(--neutral-white);
 }
