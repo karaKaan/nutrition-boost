@@ -28,6 +28,10 @@
   font-weight: 700;
 }
 
+.selected{
+  
+}
+
 .navbar .register {
   background: var(--primary-bg-700);
   color: var(--neutral-white);

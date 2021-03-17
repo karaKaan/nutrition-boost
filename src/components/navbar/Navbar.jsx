@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 import styles from './Navbar.module.css'
@@ -10,28 +10,28 @@ export default function Navbar(props) {
             <div className={styles.navbarWrapper}>
                 <nav className={styles.nav}>
                     {props.isLogo === true ? (
-                        <Link to="/">
+                        <NavLink to="/">
                             <img className={styles.logo} src={props.logoUrl} alt="Companies logo" width="100px" height="100px"/>
-                        </Link>
+                        </NavLink>
                     ):("")}
 
                     <ul className={styles.navbar}>
-                        <Link to={props.link1}>
+                        <NavLink to={props.link1} activeClassName="selected">
                             <li>{props.navList1}</li>
-                        </Link>
-                        <Link to={props.link2}>
+                        </NavLink>
+                        <NavLink to={props.link2} activeClassName="selected">
                             <li>{props.navList2}</li>
-                        </Link>
-                        <Link to={props.link3}>
+                        </NavLink>
+                        <NavLink to={props.link3} activeClassName="selected">
                             <li>{props.navList3}</li>
-                        </Link>
-                        <Link to={props.link4}>
+                        </NavLink>
+                        <NavLink to={props.link4} activeClassName="selected">
                         <li>{props.navList4}</li>
-                        </Link>
+                        </NavLink>
                         {props.isLogin === true ? (
-                            <Link to={props.linkRegister}>
+                            <NavLink to={props.linkRegister}>
                                 <li className={styles.register}>{props.navListLogin}</li>
-                            </Link>
+                            </NavLink>
                         ):("")}
                     </ul>
                 </nav>

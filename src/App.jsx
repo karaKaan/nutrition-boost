@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 
 import logo from './images/logo.svg'
 import Home from './pages/home/Home.jsx';
+import Weight from './pages/weight/Weight';
 
 function App() {
   return (
@@ -13,20 +14,20 @@ function App() {
         <Navbar 
             isLogo={true}
             logoUrl={logo}
-            navList1="Gewicht berechnen"
-            link1="/gewicht" 
+            navList1="Weight calculation"
+            link1="/weight" 
             navList2="Blog" 
             link2="/blog" 
             navList3="Shop" 
             link3="/shop" 
-            navList4="something"
-            link4="/something" 
+            navList4="Calories Counter"
+            link4="/calories" 
             isLogin={true}
             navListLogin="Get Started"
             linkRegister="/register"
             />
-            <Route exact path="/" component={Home}/>
-
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/weight"  component={Weight}/>
         <Footer
             footerText1="Privacy"
             footerLink1="/privacy"
