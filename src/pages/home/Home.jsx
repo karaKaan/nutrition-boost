@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import BigCards from '../../components/bigCards/BigCards'
 import SuccessBtn from '../../components/buttons/SuccessBtn'
 
@@ -46,7 +48,9 @@ export default function Home() {
 
             <div className={styles.endContent}>
                 <h1> READY TO CHANGE YOUR LIFE</h1>
-                <SuccessBtn btnName="Get Started" />
+                <Link to="/register">
+                    <SuccessBtn btnName="Get Started" />
+                </Link>
             </div>
 
         </div>

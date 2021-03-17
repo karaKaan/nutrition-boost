@@ -44,6 +44,8 @@ hr{
   max-width: 100em;
   color: var(--neutral-white);
 }
+
 a{
   text-decoration: none;
+  color: inherit;
 }
