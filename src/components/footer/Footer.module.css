@@ -12,9 +12,13 @@
 }
 
 .footerLinks ul li {
-  margin: 1.5em;
+  padding: 1.5em;
   font-size: 1rem;
   color: var(--neutral-white);
+}
+
+.footerLinks ul li:hover{
+  font-weight: 700;
 }
 
 .copyright {
